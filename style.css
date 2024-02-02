@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#Search_Bar{
+    border-radius: 100px !important;
+}
+#Search_Bar>input{
+    width:40vw;
+    border:none;
+    padding:10px;
+    background-color: transparent;
+}
+#hero_section{
+    display: flex;
+    justify-content: center;
+}
+
+#category_list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin:auto;
+    width:85vw;
+
+}
+
+
+.scrollable_items{
+    display:flex;
+    width:85vw;
+    flex-wrap:wrap;
+    margin:auto;
+    overflow: hidden;
+}
+.scrollable_div{
+    margin:auto;
+    width:85vw;
+    overflow: hidden;
+}
+.items{
+    white-space: nowrap;
+    overflow-x:scroll;
+}
+.My_Card{
+    width:180px;
+    white-space: wrap;
+    overflow: auto;
+    display:inline-block !important;
+}
+.My_Card>img{
+    margin:auto;
+}
+
+.time_taken{
+    font-size: 9px;
+    background-color: #f8f8f8;
+    font-weight:800;
+    width:fit-content;
+    padding: 2px 5px;
+    border-radius:5px;
+}
+.product_name{
+    font-size:14px;
+    font-weight:600;
+}
+.product_weight{
+    font-size:14px;
+    margin-top: 5px;
+    color:gray;
+    font-weight:600;
+
+}
+.product_cost{
+    margin:0;
+    padding:0;
+    font-weight: 800;
+}
+
+footer{
+    width:85vw;
+    margin:auto;
+}
+
+#footer_3 {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-family: OKRA-REGULAR;
+    line-height: 18px;
+    margin: 12px;
+}
+#footer_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#downloads{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+#SociaMedia_Symbols{
+    display: flex;
+    gap:10px;
+}
+
+.app1{
+    width:50px;
+    height:50px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 50%;
+    font-size:27px;
+}
+
+#footer_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer_2>p{
+    width:40%;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-family: OKRA-REGULAR;
+    line-height: 18px;
+    margin: 12px
+}
+
+#useful_links{
+    flex:2;
+}
+
+#category_links{
+    flex:4;
+}
+
+table{
+    width:100%;
+}
+td{
+    font-weight:400;
+    line-height:2;
+    color:#212529;
+}
+
+@media screen and (max-width:500px){
+   #hero_section{
+     display:none;
+   }
+   nav{
+    flex-direction: column;
+   }
+   #delivery_address{
+    border:none !important;
+   }
+
+   #Search_Bar{
+    display:flex;
+    align-items: center;
+    
+   }
+
+   #Search_Bar>input{
+    width:80vw;
+   }
+
+   .scrollable_items{
+    margin-top:50px;
+   }
+
+   #footer_3{
+    width:100%;
+    text-align:justify;
+   }
+
+   #footer_2{
+    flex-direction: column;
+   }
+
+   #footer_2>p{
+    width:100%;
+   }
+   #downloads{
+    margin-top:5px;
+   }
+   #SociaMedia_Symbols{
+    margin-top:10px;
+   }
+   #footer_1{
+    flex-direction: column;
+    align-items:center;
+   }
+   #useful_links,#category_links{
+    text-align: center;
+    width:100%;
+   }
+
+   
+   
+}
+
+
